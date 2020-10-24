@@ -3,8 +3,9 @@
 
 using namespace std;
 
+int arr[1000000];
+
 int p2750(void) {
-	int arr[1000000];
 	int count;
 
 	scanf_s("%d", &count);

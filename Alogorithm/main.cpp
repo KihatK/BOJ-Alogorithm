@@ -1,9 +1,9 @@
 #include <iostream>
 
-int p14889_vector(void);
+int p12865(void);
 
 int main(void) {
-	p14889_vector();
+	p12865();
 
 	return 0;
 }

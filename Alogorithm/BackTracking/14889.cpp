@@ -18,12 +18,12 @@ static int num_len(int* arr) {
 	return count;
 }
 
-int min(int a, int b) {
+static int my_min(int a, int b) {
 	return a < b ? a : b;
 }
 
 // 절대값 반환
-int abs(int a) {
+static int my_abs(int a) {
 	if (a < 0) a = a * -1;
 	return a;
 }
@@ -47,7 +47,7 @@ static void dfs(int n, int start_member, int link_member, int count) {
 					link_sum += synergy[link_first][link_second] + synergy[link_second][link_first];
 				}
 			}
-			minimum = min(minimum, abs(start_sum - link_sum));
+			minimum = my_min(minimum, my_abs(start_sum - link_sum));
 		}
 		return;
 	}
