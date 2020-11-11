@@ -4,10 +4,10 @@
 //한 가지 경우만 출력해야 하므로 exit(0)을 해줘야 함
 //check_row[9][10]에서 첫번째 인덱스는 몇번째 줄인지, 두번째 인덱스는 1~9까지의 숫자의 존재유무에 따른 true, false로 나타낸 것이다.
 
-int arr[9][9];
-bool check_row[9][10];
-bool check_col[9][10];
-bool check_square[9][10];
+static int arr[9][9];
+static bool check_row[9][10];
+static bool check_col[9][10];
+static bool check_square[9][10];
 
 static void dfs(int row, int col) {
 	if (row == 9) {

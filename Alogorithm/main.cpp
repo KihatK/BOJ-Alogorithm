@@ -1,9 +1,9 @@
 #include <iostream>
 
-int p12865(void);
+int p10942(void);
 
 int main(void) {
-	p12865();
+	p10942();
 
 	return 0;
 }

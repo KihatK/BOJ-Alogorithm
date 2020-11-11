@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\practice.cpp" />
     <ClCompile Include="1011.cpp" />
     <ClCompile Include="10171.cpp" />
     <ClCompile Include="10172.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="10718.cpp" />
     <ClCompile Include="10809.cpp" />
     <ClCompile Include="10814.cpp" />
+    <ClCompile Include="Dynamic2\10942.cpp" />
     <ClCompile Include="10989.cpp" />
     <ClCompile Include="1152.cpp" />
     <ClCompile Include="1157.cpp" />
@@ -186,6 +188,15 @@
     <ClCompile Include="Dynamic1\2748.cpp" />
     <ClCompile Include="Dynamic1\9251.cpp" />
     <ClCompile Include="Dynamic1\9461.cpp" />
+    <ClCompile Include="Dynamic2\11049.cpp" />
+    <ClCompile Include="Dynamic2\11066.cpp" />
+    <ClCompile Include="Dynamic2\1520.cpp" />
+    <ClCompile Include="Dynamic2\2293.cpp" />
+    <ClCompile Include="Dynamic2\7579.cpp" />
+    <ClCompile Include="Greedy\11047.cpp" />
+    <ClCompile Include="Greedy\11399.cpp" />
+    <ClCompile Include="Greedy\1541.cpp" />
+    <ClCompile Include="Greedy\1931.cpp" />
     <ClCompile Include="override.cpp" />
     <ClCompile Include="pure_virtual.cpp" />
     <ClCompile Include="Sort\2750.cpp" />
